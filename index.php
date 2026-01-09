@@ -1,6 +1,5 @@
 <?php include 'partials/header.php';?>
 <?php include 'partials/menu.php';?>
-<?php include 'partials/login.php';?>
 
 <div class="bg-light" style="height: 420px;">
     <div class="container">
