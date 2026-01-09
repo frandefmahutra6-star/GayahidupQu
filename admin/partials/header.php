@@ -31,7 +31,10 @@
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="brand">
-				<a href="index.html"><img src="assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"></a>
+				<a href="/gayahidupqu/index.php">
+					<!-- <img src="assets/img/logo-dark.png" alt="Klorofil Logo" class="img-responsive logo"> -->
+					 <span style="font-size: 15pt;">GayaHidupQu</span>
+				</a>
 			</div>
 			<div class="container-fluid">
 				<div class="navbar-btn">

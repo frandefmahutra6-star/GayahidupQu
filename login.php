@@ -1,7 +1,7 @@
 <?php include 'partials/header.php';?>
 <?php include 'partials/menu.php';?>
 
-<a href="register.php">daftar disini</a>
+
 
 
 
