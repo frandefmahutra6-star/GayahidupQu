@@ -1,0 +1,1 @@
+<li><a href="index.html"><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
