@@ -3,4 +3,4 @@
 <li><a href="cerita.php"><i class="fa fa-newspaper"></i > Cerita Ku</a></li>
 <li><a href="galeri.php"><i class="fa fa-image"></i> Galeri Ku</a></li>
 <li><a href="tentang.php"><i class="fab fa-whatsapp"></i>Kontak Ku</a></li>
-<li><a href=""> <i class="fa-solid fa-gear"></i>Pengaturan</a></li>
+<li><a href="pengaturan.php"><i class="fa-solid fa-gear"></i>Pengaturan</a></li>
