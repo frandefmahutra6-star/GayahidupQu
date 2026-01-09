@@ -1,8 +1,6 @@
 <?php include 'partials/header.php';?>
 <?php include 'partials/menu.php';?>
 
-<a href="register.php">daftar disini</a>
-
-
+<p>ini halaman register</p>
 
 <?php include 'partials/footer.php';?>
