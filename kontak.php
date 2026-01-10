@@ -1,6 +1,25 @@
 <?php include 'partials/header.php'; ?>
 <?php include 'partials/menu.php'; ?>
 
+<?php 
+    require_once "config.php";
+
+    $data = [];
+    $q = mysqli_query($conn, "SELECT jenis_alamat, alamat FROM kontak");
+    if ($q) {
+      while ($row = mysqli_fetch_assoc($q)) {
+        $data[$row['jenis_alamat']] = $row['alamat'];
+      }
+    }
+    
+    $fb = $data['FB'] ?? '';
+    $ig = $data['IG'] ?? '';
+    $tw = $data['TW'] ?? '';
+    $tt = $data['TT'] ?? '';
+
+?>
+
+
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-lg-6">
@@ -38,7 +57,7 @@
                             <a class="btn btn-outline-dark btn-sm" href="#" target="_blank">
                                 <i class="fa-brands fa-instagram me-1"></i> Instagram
                             </a>
-                            <a class="btn btn-outline-primary btn-sm" href="#" target="_blank">
+                            <a class="btn btn-outline-primary btn-sm" href="<?= htmlspecialchars($fb) ?>" target="_blank">
                                 <i class="fa-brands fa-facebook me-1"></i> Facebook
                             </a>
                             <a class="btn btn-outline-dark btn-sm" href="#" target="_blank">
