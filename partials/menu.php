@@ -7,17 +7,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><b>Tentang Ku</b></a>
+          <a class="nav-link active" aria-current="page" href="index.php"><b>Tentang Ku</b></a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link" href="#"><b>Cerita Ku</b></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><b>Galeri Ku</b></a>
+          <a class="nav-link" href="galeri.php"><b>Galeri Ku</b></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><b>Kontak ku</b></a>
+          <a class="nav-link" href="kontak.php"><b>Kontak ku</b></a>
         </li>
       </ul>
       <form class="d-flex">
