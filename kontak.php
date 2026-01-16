@@ -54,16 +54,16 @@
                     
                     <div class="fw-bold">Media Sosial</div>
                         <div class="d-flex flex-wrap gap-2">
-                            <a class="btn btn-outline-dark btn-sm" href="#" target="_blank">
+                            <a class="btn btn-outline-dark btn-sm" href="<?= htmlspecialchars($ig) ?>" target="_blank">
                                 <i class="fa-brands fa-instagram me-1"></i> Instagram
                             </a>
                             <a class="btn btn-outline-primary btn-sm" href="<?= htmlspecialchars($fb) ?>" target="_blank">
                                 <i class="fa-brands fa-facebook me-1"></i> Facebook
                             </a>
-                            <a class="btn btn-outline-dark btn-sm" href="#" target="_blank">
+                            <a class="btn btn-outline-dark btn-sm" href="<?= htmlspecialchars($tt) ?>" target="_blank">
                                 <i class="fa-brands fa-tiktok me-1"></i> TikTok
                             </a>
-                            <a class="btn btn-outline-info btn-sm" href="#" target="_blank">
+                            <a class="btn btn-outline-info btn-sm" href="<?= htmlspecialchars($tw) ?>" target="_blank">
                                 <i class="fa-brands fa-x-twitter me-1"></i> Twitter/X
                             </a>
                         </div>
