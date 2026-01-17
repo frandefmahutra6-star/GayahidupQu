@@ -14,11 +14,6 @@
       // Daftar gambar (contoh)
       $items = [
         ["title" => "Foto 1", "src" => "assets/1.jpg"],
-        ["title" => "Foto 2", "src" => "assets/img/galeri/2.jpg"],
-        ["title" => "Foto 3", "src" => "assets/img/galeri/3.jpg"],
-        ["title" => "Foto 4", "src" => "assets/img/galeri/4.jpg"],
-        ["title" => "Foto 5", "src" => "assets/img/galeri/5.jpg"],
-        ["title" => "Foto 6", "src" => "assets/img/galeri/6.jpg"],
       ];
     ?>
 
@@ -36,7 +31,6 @@
           <div class="card-body d-flex justify-content-between align-items-center">
             <div>
               <div class="fw-bold"><?= htmlspecialchars($it["title"]) ?></div>
-              <small class="text-muted">Klik untuk lihat</small>
             </div>
 
             <!-- Button trigger modal -->

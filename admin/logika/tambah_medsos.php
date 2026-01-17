@@ -66,10 +66,6 @@
     }
 
 
-
-    
-
-
     header("Location: ../kontak.php");
     exit;
 
