@@ -3,8 +3,8 @@
 
 <div class="container py-5">
   <div class="text-center mb-4">
-    <h2 class="fw-bold">Cerita Ku</h2>
-    <p class="text-muted mb-0">Kumpulan Ceritaku</p>
+    <h2 class="fw-bold">Ceritaku Ku</h2>
+    <p class="text-muted mb-0">Kumpulan Ceritaku.</p>
   </div>
 
   <!-- Grid cards (Bootstrap 5) -->
@@ -13,11 +13,13 @@
     <?php
       // Daftar gambar (contoh)
       $items = [
-        ["judul" => "Si Kancil", "src" => "assets/1.jpg", "konten"=> "Dongeng si Kancil memang sangat digemari tua dan muda. Dongeng fabel dengan tokoh utama si Kancil yang cerdik ini selalu bisa menghibur pembacanya. Karakter si Kancil yang banyak akal membuat jalan cerita jadi menarik dan membuat penasaran. Dalam beberapa dongeng, Si Kancil selalu dicari ketika ada masalah yang perlu dipecahkan."],
-        ["judul" => "Kura-kura", "src" => "assets/img/galeri/2.jpg", "konten" => "Di sebuah hutan yang tenang dan damai, hiduplah seorang kura-kura yang sangat pemalu. Ia bernama Kuri, dan ia memiliki cangkang yang indah berwarna hijau zamrud. Kuri selalu merasa tidak nyaman dan takut berinteraksi dengan hewan-hewan lain. Ia lebih suka tinggal di tempat yang sunyi, jauh dari keramaian.
-
-Meskipun pemalu, Kuri memiliki hati yang baik dan selalu peduli pada hewan-hewan kecil yang membutuhkan pertolongan. Ia sering kali melihat hewan-hewan itu kesulitan mencari makanan atau bersembunyi dari predator. Kuri dengan hati yang lembut selalu datang membantu mereka, tetapi karena sifatnya yang pemalu, ia tidak pernah mendapatkan banyak teman." ],
-       
+        ["judul" => "kucing", "src" => "assets/cerita/kucing.jpeg", "konten" => "Setiap pagi, sebelum pintu dibuka, Miko selalu duduk di depan jendela besar, memperhatikan orang-orang yang lewat dengan tatapan tenangnya. Tugas kesukaan Miko adalah menemani para pengunjung yang sedang membaca di pojok ruangan yang sunyi. Ia tidak pernah mengeong keras; ia hanya akan mendekat, mendengkur halus, dan meringkuk di samping kaki mereka."],
+        ["judul" => "ayam", "src" => "assets/cerita/ayam.jpg", "konten" =>"Setiap subuh tiba Kiko selalu berdiri di atas pagar kayu yang paling tinggi dengan dada membusung penuh rasa percaya diri. Dia menarik napas dalam-dalam lalu mengeluarkan suara kokokannya yang paling lantang hingga menggema ke seluruh pelosok lembah. Suaranya begitu merdu dan bertenaga sehingga para petani tidak lagi membutuhkan alarm dari ponsel mereka untuk memulai aktivitas di sawah."],
+        ["judul" => "kancil", "src" => "assets/cerita/kancil.jpg", "konten" => "Setiap pagi, sebelum pintu dibuka, Miko selalu duduk di depan jendela besar, memperhatikan orang-orang yang lewat dengan tatapan tenangnya. Tugas kesukaan Miko adalah menemani para pengunjung yang sedang membaca di pojok ruangan yang sunyi. Ia tidak pernah mengeong keras; ia hanya akan mendekat, mendengkur halus, dan meringkuk di samping kaki mereka."],
+        ["judul" => "ayam", "src" => "assets/cerita/musang.jpg", "konten" =>"Setiap subuh tiba Kiko selalu berdiri di atas pagar kayu yang paling tinggi dengan dada membusung penuh rasa percaya diri. Dia menarik napas dalam-dalam lalu mengeluarkan suara kokokannya yang paling lantang hingga menggema ke seluruh pelosok lembah. Suaranya begitu merdu dan bertenaga sehingga para petani tidak lagi membutuhkan alarm dari ponsel mereka untuk memulai aktivitas di sawah."],
+        ["judul" => "kucing", "src" => "assets/cerita/lebah.jpg", "konten" => "Setiap pagi, sebelum pintu dibuka, Miko selalu duduk di depan jendela besar, memperhatikan orang-orang yang lewat dengan tatapan tenangnya. Tugas kesukaan Miko adalah menemani para pengunjung yang sedang membaca di pojok ruangan yang sunyi. Ia tidak pernah mengeong keras; ia hanya akan mendekat, mendengkur halus, dan meringkuk di samping kaki mereka."],
+        ["judul" => "ayam", "src" => "assets/cerita/buaya.jpg", "konten" =>"Setiap subuh tiba Kiko selalu berdiri di atas pagar kayu yang paling tinggi dengan dada membusung penuh rasa percaya diri. Dia menarik napas dalam-dalam lalu mengeluarkan suara kokokannya yang paling lantang hingga menggema ke seluruh pelosok lembah. Suaranya begitu merdu dan bertenaga sehingga para petani tidak lagi membutuhkan alarm dari ponsel mereka untuk memulai aktivitas di sawah."],
+        
       ];
     ?>
 
@@ -35,7 +37,7 @@ Meskipun pemalu, Kuri memiliki hati yang baik dan selalu peduli pada hewan-hewan
           <div class="card-body d-flex justify-content-between align-items-center">
             <div>
               <div class="fw-bold"><?= htmlspecialchars($it["judul"]) ?></div>
-              <small class="text-muted p-6"><?= htmlspecialchars($it["konten"]) ?></small>
+              <small class="text-muted">Klik untuk lihat</small>
             </div>
 
             <!-- Button trigger modal -->
@@ -55,14 +57,13 @@ Meskipun pemalu, Kuri memiliki hati yang baik dan selalu peduli pada hewan-hewan
         <div class="modal fade" id="<?= $modalId ?>" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
-                    <div class="modal-body p-2 position-relative">
+                    <div class="modal-body p-0 position-relative">
                         <img
                         src="<?= htmlspecialchars($it["src"]) ?>"
                         alt="<?= htmlspecialchars($it["judul"]) ?>"
                         class="img-fluid w-100"
                         >
-                        <p class= "p-4"><?= htmlspecialchars($it["konten"]) ?></p>
-                        
+                        <p><?= htmlspecialchars($it["konten"]) ?></p>
                     </div>
                 </div>
             </div>
