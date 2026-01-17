@@ -1,6 +1,6 @@
 <footer class="border-top py-3 bg-body">
   <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-    <small class="mb-0"><b>&copy; 2025 Company, Inc</b></small>
+    <small class="mb-0"><b>&copy; 2026 Fran Defmahutra</b></small>
 
     <div class="d-flex gap-3">
       <a href="#" class="text-decoration-none"><i class="fa-brands fa-instagram text-danger"></i></a>

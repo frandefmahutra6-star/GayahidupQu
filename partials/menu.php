@@ -11,7 +11,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#"><b>Cerita Ku</b></a>
+          <a class="nav-link" href="cerita.php"><b>Cerita Ku</b></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="galeri.php"><b>Galeri Ku</b></a>
